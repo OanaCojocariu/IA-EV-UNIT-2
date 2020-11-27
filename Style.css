@@ -1,0 +1,56 @@
+<style>
+#nume
+{
+background-color:#CC9999;
+text-align:left;
+color:#FF3300;
+border:5px solid black;
+margin:10px;
+font-style:italic;
+}
+#e-mail
+{
+color:#FFCC33;
+text-align:right;
+text-decoration:underline;
+}
+h2
+{
+color:#996633;
+text-decoration:underline;
+font-weight: bold;
+text-indent:20px;
+text-align: center;
+}
+table, th, td
+{
+border:3px solid #CC6633;
+font-size: 100%;
+color:black;
+text-align:center;
+font-weight: bold;
+margin:auto;
+width="100%";
+cellspacing="0";
+cellpadding="0";
+border-collapse: collapse;
+}
+#structura
+{
+background-color: #CCCCFF;
+border:2px solid #996633;
+margin:10px;
+}
+ul
+{
+list-style-position:inside;
+text-align:left;
+padding: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>

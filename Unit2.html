@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Evaluare Unit 2 </title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+#nume
+{
+background-color:#CC9999;
+text-align:left;
+color: #FF3300;
+border:5px solid black;
+margin:10px;
+font-style:italic;
+}
+.mySlides {display:none;}
+</style>
+<body>
+<br>
+
+
+</br>
+<div id="nume">
+<h1> <b> Oana Maria COJOCARIU </b> </h1>
+</div>
+<h3 id="e-mail"> oanacojocariu1@gmail.com </h3>
+<div>
+<table align="right">
+<tr>
+<th> Denumire componenta </th>
+<th> Producator </th>
+<th> Parametri </th>
+</tr>
+<tr>
+<th> Procesor </th>
+<th> AMD </th>
+<th> Tip: Ryzen 3
+</br>
+Model: 4350G </th>
+</tr>
+<tr>
+<th> Placa de baza </th>
+<th> Acer </th>
+<th> Model: PRIME B550M-A (WI-FI) </th>
+</tr>
+<tr>
+<th> RAM </th>
+<th> Corsair Vengeance LPX </th>
+<th> Tip memorie: DDR4
+</br>
+Capacitate memorie: 8 GB
+</br>
+Frecventa memorie: 3000 MHz
+</br>
+Memorie maxima	128 GB
+ </th>
+</tr>
+</table>
+</div>
+</br></br></br></br></br></br></br></br></br></br>
+<div id="structura">
+<h2> Structura retelei personale si accesul la internet </h2>
+<img src="diagrama.png" class="center">
+<h2 style="text-align:left;">Caracteristicile conexiunii la retea </h2>
+<ul text-align: >
+  I. Adresa MAC:
+D8-FC-93-A1-0F-F9;
+</br>
+ II. Adresa IP:
+</br>
+v4: 172.20.10.2;
+</br>
+v6: fe80::8d49:4b01:91b4:8e18%3;
+</br>
+III. Debit la download: 50.10 Mbps;
+</br>
+ IV. Debit la upload: 45.30 Mbps.
+</ul>
+</div>
+<h2 style="text-align:left;"> Utilizarea resurselor </h2>
+<div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="cpu.png" style="width:100%">
+  <img class="mySlides" src="memorie.png" style="width:100%">
+  <img class="mySlides" src="procese.png" style="width:100%">
+  <img class="mySlides" src="disk.png" style="width:100%">
+  <img class="mySlides" src="servicii.png" style="width:100%">
+  <img class="mySlides" src="network.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(slideshow, 3000); 
+}
+</script>
+</html>
